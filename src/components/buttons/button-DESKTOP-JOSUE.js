@@ -3,7 +3,7 @@ import './style.css'
 
 
 const Button = (props) => { 
-    const alerta = () => {
+    const alerta = (label) => {
        alert("O label deste botão é. " + props.label)
     }
     return(
